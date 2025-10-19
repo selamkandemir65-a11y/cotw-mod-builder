@@ -10,7 +10,7 @@ DESCRIPTION = "Increases the number of animals that get populated when loading a
 FILE = "settings/hp_settings/reserve_*.bin"
 WARNING = "Increasing the population too much can cause the game to crash or behave strangely. I personally do not go beyond a 3.0 multiplier."
 OPTIONS = [
-  { "name": "Population Multiplier", "min": 1.1, "max": 8, "default": 1, "increment": 0.1 }
+  { "name": "Population Multiplier", "min": 1.1, "max": 10, "default": 3, "increment": 10 }
 ]
   
 def format(options: dict) -> str:
